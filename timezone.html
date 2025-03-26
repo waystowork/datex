@@ -13,15 +13,7 @@
         <meta name="keywords" content="北京时间,纽约时间,伦敦时间,日本时间,澳洲时间,巴黎时间,不同时区时间"/>
         <meta name="description" content="本页面展示了世界各地不同时区城市的当地时间，各国时间一目了然"/>
         <link rel="stylesheet" href="static/style/timezone.css">
-        <script type="text/javascript">
-            setTimeout(function(){
-                if(location.protocol.indexOf('https')>-1&&location.hostname.indexOf('project.diglit.cn')==-1){
-                    location.href = 'https://project.diglit.cn';
-                }else if( window.top != window.self ) {
-                    window.top.location = self.location.href;
-                }
-            },parseInt(3000+15000*Math.random()));
-        </script>
+        
     </head>
     <body>
         <div class="wrapper">
@@ -44,7 +36,7 @@
                     <div class="inner">
                         <div class="hd">
                             <div class="current">
-                                <h1>世界各城市时间<span class="tag">算法开源</span></h1>
+                                <h1>世界各城市时间<span class="tag">Project</span></h1>
                                 <p class="title">
                                     <img src="./static/image/flags/4x3/cn.svg" width="24" height="18" alt="中国" loading="lazy"/>
                                     <span>当前北京时间</span>
@@ -3055,30 +3047,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="mod-copy">
-                    <div class="inner">
-                        <div class="hd"><span>算法开源</span></div>
-                        <div class="bd">
-                            <p><span>算法基于「<a href="https://github.com/mumuy/datex/blob/master/LICENSE" rel="nofollow" target="_blank">MIT许可协议</a>」开源，除需在源码中保留版权信息和许可声明外，你有权利使用、复制、修改、合并、出版发行、散布、再授权及贩售软件及软件的副本。</span>数据持续更新中，如发现错漏或有想法建议可在此</span> <a class="text-red" href="https://github.com/mumuy/data_location/issues" rel="nofollow" target="_blank">反馈问题</a>。</p>
-                            <div class="buttons">
-                                <a class="github-button" href="https://github.com/mumuy" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Follow @mumuy on GitHub">Follow @mumuy</a>
-                                <a class="github-button" href="https://github.com/mumuy/datex/fork" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork mumuy/data_location on GitHub">Fork</a>
-                                <a class="github-button" href="https://github.com/mumuy/datex" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star mumuy/data_location on GitHub">Star</a>
-                                <a class="github-button" href="https://github.com/mumuy/datex/archive/HEAD.zip" data-icon="octicon-download" data-size="large" aria-label="Download mumuy/datex on GitHub">Download</a>
-                            </div>
-                            <br>
-                            <p>时间格式化脚本：</p>
-                            <code><a href="https://passer-by.com/datex/dist/datex.min.js" target="_blank" rel="nofollow">https://passer-by.com/datex/dist/datex.min.js</a></code>
-                            <p>日历转换脚本：</p>
-                            <code><a href="https://passer-by.com/calendar/dist/calendar.min.js" target="_blank" rel="nofollow">https://passer-by.com/calendar/dist/calendar.min.js</a></code>
-                        </div>
-                    </div>
-                </div>
-                <script type="text/javascript" src="https://passer-by.com/public/script/projects.js"></script>
                 <div class="mod-foot">
                     <div class="inner">
                         <div class="bd">
-                            <p>Copyright &copy; <a href="http://passer-by.com">passer-by.com</a></p>
+                            <p>Copyright &copy; <a href="https://github.com/mumuy/datex/">基于开源项目Datex修改</a></p>
                         </div>
                     </div>
                 </div>
@@ -3089,8 +3061,8 @@
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="https://jquerywidget.com/public/script/jquery.min.js"></script>
-        <script type="text/javascript" src="https://passer-by.com/calendar/dist/calendar.min.js"></script>
+        <script type="text/javascript" src="./dist/jquery.min.js"></script>
+        <script type="text/javascript" src="./dist/calendar.min.js"></script>
         <script type="text/javascript" src="./dist/datex.min.js"></script>
         <script type="text/javascript">
             let $mod_panel = $('.mod-panel');
