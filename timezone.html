@@ -15,8 +15,8 @@
         <link rel="stylesheet" href="static/style/timezone.css">
         <script type="text/javascript">
             setTimeout(function(){
-                if(location.protocol.indexOf('http')>-1&&location.hostname.indexOf('project.diglit.cn')==-1){
-                    location.href = 'http://project.diglit.cn';
+                if(location.protocol.indexOf('https')>-1&&location.hostname.indexOf('project.diglit.cn')==-1){
+                    location.href = 'https://project.diglit.cn';
                 }else if( window.top != window.self ) {
                     window.top.location = self.location.href;
                 }
@@ -3175,6 +3175,7 @@
             })();
         </script>
         <script async defer src="https://cdn.bootcdn.net/ajax/libs/github-buttons/2.21.1/buttons.min.js"></script>
-        <script type="text/javascript" src="https://passer-by.com/public/script/stat.js"></script>
+        <!--统计代码-->
+        <script type="text/javascript" src="/dist/tongji.js"></script>
     </body>
 </html>
